@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1920px) and (min-width: 983px) {
+.animation {
+    animation: fadeInUp 0.5s ease-in-out forwards;
+  }
+
+  .animation li{
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: fadeInUp 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}

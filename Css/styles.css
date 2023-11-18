@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Para Pantallas --GRANDES--*/
+@media only screen and (max-width: 1920px) and (min-width: 983px) {
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.logo{
+margin-left: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 40px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: #ffffff8d;
+    padding: 10px;
+    border-radius: 15px;
+}
+  
+}
+
+  /*Para Pantallas --MEDIANAS--*/
+@media only screen and (max-width: 1920px) and (min-width: 983px) {
+
+
+}
+
+  /*Para Pantallas --PEQUEÑAS--*/
+  @media only screen and (max-width: 480px){
+
+
+  }
